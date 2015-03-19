@@ -2,6 +2,10 @@
 ## functions do
 
 ## Write a short comment describing this function
+# This function "makeCacheMatrix" works like a class - it create a list that contains
+# 4 member functions: set, get, setIablnv & getInv
+# It uses <<- assignment operator so that these internal variables are not exposed to the 
+# outside environment.
 
 makeCacheMatrix <- function(x = matrix()) {
     xinv <- NULL # this is where the result of inversion is stored
